@@ -1,0 +1,31 @@
+@font-face {
+  font-display: swap;
+  font-family: "Pathway Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/pathway-gothic-one-v15-latin-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Great Vibes";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/great-vibes-v18-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Dorsa";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/dorsa-v27-latin-regular.woff2") format("woff2");
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  font-family: "Pathway Gothic One";
+  background: linear-gradient(#3ec8fa, #1b5db8);
+}
